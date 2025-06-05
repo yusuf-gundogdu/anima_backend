@@ -1,0 +1,36 @@
+{
+  "annotations": {
+    "changelogDate": "20250602215607"
+  },
+  "applications": "*",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "timestamp",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "udid",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "platform",
+      "fieldType": "Platform",
+      "fieldValues": "AND,IOS"
+    },
+    {
+      "fieldName": "credit",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "level",
+      "fieldType": "Integer"
+    }
+  ],
+  "name": "UserAccount",
+  "relationships": [],
+  "searchEngine": "no"
+}

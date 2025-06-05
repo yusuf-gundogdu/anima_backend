@@ -1,0 +1,22 @@
+{
+  "annotations": {
+    "changelogDate": "20250602215608"
+  },
+  "applications": "*",
+  "fields": [
+    {
+      "fieldName": "title",
+      "fieldType": "String"
+    }
+  ],
+  "name": "GenerateList",
+  "relationships": [
+    {
+      "otherEntityName": "generateItem",
+      "relationshipName": "content",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "searchEngine": "no"
+}

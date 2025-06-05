@@ -41,6 +41,11 @@ public class CacheConfiguration {
             createCache(cm, com.mycompany.myapp.repository.UserRepository.USERS_BY_LOGIN_CACHE);
             createCache(cm, com.mycompany.myapp.repository.UserRepository.USERS_BY_EMAIL_CACHE);
             createCache(cm, com.mycompany.myapp.domain.Authority.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.ImageAsset.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.UserAccount.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.GenerateList.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.GenerateList.class.getName() + ".contents");
+            createCache(cm, com.mycompany.myapp.domain.GenerateItem.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }

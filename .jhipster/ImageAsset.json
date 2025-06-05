@@ -1,0 +1,23 @@
+{
+  "annotations": {
+    "changelogDate": "20250602215606"
+  },
+  "applications": "*",
+  "fields": [
+    {
+      "fieldName": "fileName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "filePath",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "fileSize",
+      "fieldType": "Long"
+    }
+  ],
+  "name": "ImageAsset",
+  "relationships": [],
+  "searchEngine": "no"
+}

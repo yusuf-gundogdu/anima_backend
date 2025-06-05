@@ -1,0 +1,39 @@
+
+enum Platform {
+  AND
+  IOS
+}
+
+entity ImageAsset {
+  fileName String
+  filePath String
+  fileSize Long
+}
+
+entity UserAccount {
+  id Long
+  timestamp Integer
+  udid String
+  platform Platform
+  credit Integer
+  level Integer
+}
+
+entity GenerateList {
+  title String
+}
+
+entity GenerateItem {
+  id Long
+  name String
+  credit Integer
+  level Integer
+}
+
+relationship OneToOne {
+  GenerateItem{image} to ImageAsset
+}
+
+relationship OneToMany {
+  GenerateList{content} to GenerateItem
+}
